@@ -1,0 +1,65 @@
+@font-face {
+	font-family: "potra";
+	src: url('font/SF_Cartoonist_Hand.ttf') format("truetype");
+}
+
+body
+{
+		background-color: black;
+}
+
+input.masked,
+.shell span {
+  font-size: 16px;
+  font-family: monospace;
+  padding-right: 10px;
+  background-color: transparent;
+  text-transform: uppercase;
+
+}
+li {
+	font-size: 150%;
+  line-height: 2;
+  font-family: potra;
+  list-style-type: none;
+  border-bottom: 1px solid #ccc;
+}
+label {
+  display: inline-block;
+  width: 14em;
+	color: white;
+}
+input {
+  border: none;
+	color: white;
+}
+#panier{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 20%;
+	border: white solid 2px;
+	cursor:pointer;
+	background-color: black;
+	color:white;
+	padding-top:22px;
+	padding-bottom:22px;
+	transition: all 0.3s;
+  font-family: potra;
+  font-size: 200%;
+}
+#panier:hover{
+	background-color: white;
+	color: black;
+}
+.submit:hover {
+	color: black;
+}
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+a
+{
+	text-decoration:  none;
+}

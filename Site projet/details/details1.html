@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+  <html lang=fr>
+   <head>
+    <meta charset=utf-8>
+		<link rel="stylesheet" type="text/css" href="../assets/details.css">
+    <title>Details</title>
+   </head>
+   <body>
+   <header>
+<img src="../assets/img/assassin-s-creed-odyssey.jpeg" alt="001">
+<p> 35,00€ TTC </p>
+<div class="submit">
+	<form method="post" action="../Formulaire.html">
+        <input type="submit" value="Ajouter au panier" id="panier"/>
+		</form>
+ </div>
+	  
+</header>
+<p class="title"> Synopsis </p>
+<p>Assassin's Creed Odyssey est une suite indirecte du précédent opus. </p>
+<p>Dans le présent, le joueur suit toujours Layla Hassan, une membre des Assassins qui explore la mémoire des premiers Assassins.</p>
+<p>En revanche, l'action se déroule durant la guerre du Péloponnèse en 431 avant Jésus-Christ, soit 382 ans avant l'histoire de Bayek relatée dans Origins et est centrée sur la première civilisation.</p>
+<p>Le joueur incarne l'un des descendants de Léonidas, Kassandra ou Alexios.</p>
+<p>Comme dans chaque opus, le joueur sera amené à rencontrer de nombreux personnages historiques comme Périclès, Aristophane, Aspasie, Euripide, Phidias, Thrasymaque, Socrate, Hérodote, Sophocle ou encore Artaxerxès Ier.</p>
+<p>Le joueur est un mercenaire et pourra se battre pour Athènes et la Ligue de Délos ou la Ligue du Péloponnèse dirigée par Sparte.</p>
+<div id="form-main">
+  <div id="form-div">
+  <p> Donnez nous votre avis </p>
+  <!--  https://codepen.io/rexkirby/pen/Fdnlz  -->
+<!--  Formulaire -->
+    <form class="form" id="form1">
+      
+      <p class="name">
+        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Nom" id="name" />
+      </p>
+      
+      <p class="email">
+        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+      </p>
+      
+      <p class="text">
+        <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Commentaire"></textarea>
+      </p>
+      
+      
+      <div class="submit">
+        <input type="submit" value="Envoyer" id="button-white"/>
+      </div>
+    </form>
+  </div>
+  </div>
+  <footer>
+	 <p> Bazar du Grenier &copy; </p>
+	 <p>2018</p>
+	</footer>
+</body>
+</html>

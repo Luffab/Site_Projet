@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+  <html lang=fr>
+   <head>
+    <meta charset=utf-8>
+		<link rel="stylesheet" type="text/css" href="assets/formulaire.css">
+    <title> Formulaire </title>
+   </head>
+
+    <body>
+     <ul>
+       <li>
+         <label for="Prénom">Prénom</label>
+         <input id="Prénom" type="text" placeholder="Prénom" class="masked" pattern="(1[0-2]|0[1-9])\/\d\d" title="Prénom">
+       </li>
+       <li>
+         <label for="Nom">Nom</label>
+         <input id="Nom" type="text" placeholder="Nom" class="masked" pattern="(1[0-2]|0[1-9])\/\d\d" title="Nom">
+       </li>
+	   <li>
+         <label for="Mail">Adresse Mail</label>
+         <input id="Mail" type="email" placeholder="Mail" class="masked" pattern="(1[0-2]|0[1-9])\/\d\d" title="Mail">
+		 </li>
+		 <li>
+       <label for="tel">Telephone</label>
+       <input id="tel" type="tel" name="phone" placeholder="XX XX XX XX XX" pattern="\(\d{3}\) \d{3}\-\d{4}" class="masked" title="10-digit number">
+     </li>
+	  <li>
+       <label for="cc">Numéro de carte bleue</label>
+       <input id="cc" type="text" name="ccnumber" placeholder="XXXX XXXX XXXX XXXX" pattern="\d{4} \d{4} \d{4} \d{4}" class="masked" title="16-digit number">
+     </li>
+       <li>
+         <label for="expiration">Mois d'expiration</label>
+         <input id="expiration" type="text" placeholder="MM/YY" class="masked" pattern="(1[0-2]|0[1-9])\/\d\d" data-valid-example="11/18" title="2-digit month and 2-digit year">
+       </li>
+	   <li>
+         <label for="crypto">Cryptogramme</label>
+         <input id="crypto" type="text" placeholder="XXX" class="masked" pattern="(1[0-2]|0[1-9])\/\d\d" title="3-digit number">
+       </li>
+     </ul>
+	<div class="submit">
+	<form method="post" action="confirmation.html">
+        <input type="submit" value="Payer" id="panier"/>
+		</form>
+ </div>
+    </body>
+  </html>

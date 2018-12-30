@@ -1,0 +1,30 @@
+ @font-face {
+	font-family: "potra";
+	src: url('font/SF_Cartoonist_Hand.ttf') format("truetype");
+}
+
+body
+{
+		background-color: black;
+		font-family: potra;
+}
+
+p 
+{
+	color: white;
+	font-size: 200%;
+	text-align: center;
+}
+
+a
+{
+	color: white;
+	font-size: 150%;
+	text-decoration: none;
+	display:inline-block;	
+}
+
+#accueil
+{
+	text-align:center;
+}
